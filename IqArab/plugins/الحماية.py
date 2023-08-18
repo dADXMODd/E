@@ -639,4 +639,4 @@ async def approve_p_m(event):
             APPROVED_PMs += f"• 👤 {_format.mentionuser(user.first_name , user.user_id)}\n**🝳 ⦙   الأيــدي :** `{user.user_id}`\n**🝳 ⦙   الـمـعـرف:** @{user.username}\n**🝳 ⦙   الـتـاريـخ :** {user.date}\n**🝳 ⦙   الـسـبـب:** {user.reason}\n\n"
     else:
         APPROVED_PMs = "🝳 ⦙   لـم تـوافـق عـلـى أي شـخـص مـسـبـقـاً ⁉️"
-    await edit_or_reply(event, APPROVED_PMs, file_name="قائـمة الحـماية.txt", caption="🝳 ⦙  قـائـمـة الـمـسـمـوح لـهم الـحـالـيـة : 🔰 \n سـورس تليثون الـعربي \n @IQTHON")
+    await edit_or_reply(event, APPROVED_PMs, file_name="قائـمة الحـماية.txt", caption="🝳 ⦙  قـائـمـة الـمـسـمـوح لـهم الـحـالـيـة : 🔰 \n سـورس تليثون زد إي \n @UI_XB")
