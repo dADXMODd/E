@@ -109,10 +109,10 @@ async def bot_start(event):
                         \n\n**⌔︙ البوت خاص بسورس :** [TELETHON FOR ARABS](t.me/iqthon)"
         buttons = [
             (
-                Button.url("تنصيب سورسنا", "t.me/iqthon"),
+                Button.url("تنصيب سورسنا", "t.me/UI_XB"),
                 Button.url(
                     "قناه المساعد",
-                    "https://t.me/E999G",
+                    "https://t.me/UP_UH",
                 ),
             )
         ]
